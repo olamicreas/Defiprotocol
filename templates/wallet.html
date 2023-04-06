@@ -1,0 +1,1232 @@
+{% extends 'head.html' %} 
+{% block content %}
+<style data-styled="" data-styled-version="4.4.1">
+    .kyUqCt {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+      height: 145px;
+      padding: 0px 20px;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      justify-content: space-around;
+    }
+    @media screen and (max-width: 640px) {
+      .kyUqCt {
+        height: 100px;
+        padding: 0px 15px;
+      }
+    }
+    .guKAph {
+      width: 100px;
+      text-align: center;
+      font-size: 20px;
+      color: rgb(88, 120, 188);
+      font-weight: 500;
+    }
+    @media screen and (max-width: 640px) {
+      .guKAph {
+        width: 60px;
+        font-size: 16px;
+      }
+    }
+    .eyaBAy {
+      width: 100px;
+      text-align: center;
+      font-size: 20px;
+      color: rgb(88, 120, 188);
+      font-weight: 500;
+    }
+    @media screen and (max-width: 640px) {
+      .eyaBAy {
+        width: 60px;
+        font-size: 16px;
+      }
+    }
+    .hnlESl {
+      flex: 1 1 0%;
+      padding: 0px 20px;
+      text-align: center;
+    }
+    .hnlESl img {
+      width: 100%;
+      max-width: 120px;
+      min-width: 60px;
+    }
+    .jVWwwJ {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0px auto;
+      height: 160px;
+      display: flex;
+      flex-shrink: 0;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+    @media screen and (max-width: 640px) {
+      .jVWwwJ {
+        flex-direction: column;
+        height: auto;
+        margin: 30px 0px;
+      }
+      .jVWwwJ a {
+        margin: 10px 0px;
+      }
+    }
+    .hvbAKM {
+      width: 20px;
+      height: 20px;
+    }
+    .hvbAKM img {
+      height: 100%;
+    }
+    .YwSGw {
+      width: 150px;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+    }
+    .YwSGw p {
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      padding-left: 0.5em;
+      font-size: 14px;
+      color: rgb(88, 120, 188);
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: 600;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: SFMono;
+      src: url("") format("embedded-opentype"), url("") format("woff2"),
+        url("") format("woff"), url("") format("truetype"),
+        url("") format("svg");
+      font-weight: bold;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Regular.eot") format("embedded-opentype"),
+        url("SFProText-Regular.woff2") format("woff2"),
+        url("SFProText-Regular.woff") format("woff"),
+        url("SFProText-Regular.ttf") format("truetype"),
+        url("SFProText-Regular.svg") format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Semibold.eot") format("embedded-opentype"),
+        url("SFProText-Semibold.woff2") format("woff2"),
+        url("SFProText-Semibold.woff") format("woff"),
+        url("SFProText-Semibold.ttf") format("truetype"),
+        url("SFProText-Semibold.svg") format("svg");
+      font-weight: 600;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Medium.eot") format("embedded-opentype"),
+        url("SFProText-Medium.woff2") format("woff2"),
+        url("SFProText-Medium.woff") format("woff"),
+        url("SFProText-Medium.ttf") format("truetype"),
+        url("SFProText-Medium.svg") format("svg");
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "SF Pro Text";
+      src: url("SFProText-Bold.eot") format("embedded-opentype"),
+        url("SFProText-Bold.woff2") format("woff2"),
+        url("SFProText-Bold.woff") format("woff"),
+        url("SFProText-Bold.ttf") format("truetype"),
+        url("SFProText-Bold.svg") format("svg");
+      font-weight: bold;
+      font-style: normal;
+    }
+    html,
+    body,
+    #root,
+    #router-root {
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    body {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "SF Pro Text",
+        Roboto, Helvetica, Arial, sans-serif;
+      font-style: normal;
+      font-stretch: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: rgb(88, 112, 135);
+      overflow-y: auto;
+      text-rendering: optimizelegibility;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      -webkit-font-smoothing: antialiased;
+      text-size-adjust: 100%;
+    }
+    button:active,
+    button:focus,
+    button.active {
+      background-image: none;
+      outline: 0px;
+      box-shadow: none;
+    }
+    [tabindex] {
+      outline: none;
+      height: 100%;
+    }
+    a,
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      text-decoration: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    h1 {
+      font-size: 42px;
+    }
+    h2 {
+      font-size: 32px;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    h4 {
+      font-size: 20px;
+    }
+    h5 {
+      font-size: 17px;
+    }
+    h6 {
+      font-size: 14px;
+    }
+    a {
+      text-decoration: none;
+      outline: none;
+      color: rgb(65, 153, 252);
+      font-weight: bold;
+    }
+    ul,
+    li {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+    }
+    * {
+      box-sizing: border-box !important;
+    }
+    button {
+      border-style: none;
+      line-height: 1em;
+    }
+    input {
+      appearance: none;
+    }
+    input[type="color"],
+    input[type="date"],
+    input[type="datetime"],
+    input[type="datetime-local"],
+    input[type="email"],
+    input[type="month"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="text"],
+    input[type="time"],
+    input[type="url"],
+    input[type="week"],
+    select:focus,
+    textarea {
+      font-size: 16px;
+    }
+    .statusbar-overlay {
+      opacity: 0;
+    }
+    #coinbase_button_iframe {
+      width: 244px !important;
+      margin-top: 40px !important;
+    }
+    #coinbase_widget {
+      display: inline-block;
+      margin-top: 56px !important;
+    }
+    .dijnUu {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+    }
+    .fiuMUO {
+      width: 100%;
+      height: 100%;
+      margin: 0px auto;
+      position: relative;
+    }
+    .fuQfHo {
+      height: 100%;
+      max-width: 1064px;
+      margin: 0px auto;
+      padding: 0px;
+    }
+    .hfVnjX {
+      display: flex;
+      height: 100%;
+    }
+    @media screen and (max-width: 640px) {
+      .hfVnjX {
+        flex-direction: column;
+      }
+    }
+    .gAVVCu {
+      width: 100%;
+      height: 100%;
+      padding: 24px;
+      overflow: hidden;
+      background: rgb(255, 255, 255);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+    }
+    @media screen and (max-width: 640px) {
+      .gAVVCu {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 15px;
+      }
+    }
+    .hDbjSS {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 32px 0px;
+    }
+    @media screen and (max-width: 640px) {
+      .hDbjSS {
+        padding: 20px 24px 0px;
+      }
+    }
+    .fAmUdU {
+      display: flex;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      width: 100%;
+      max-width: 700px;
+      margin: 0px auto;
+    }
+    .gFeYHJ {
+      font-size: 35px;
+      font-weight: 500;
+      text-align: center;
+    }
+    .jGHRMl {
+      margin-top: 40px;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.35;
+    }
+    .ibLsRQ {
+      position: relative;
+      width: 100%;
+      z-index: 0;
+      margin-bottom: 40px;
+    }
+    .cmAzHq {
+      width: 100%;
+    }
+    .lfUBtr {
+      width: 100%;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding: 25px;
+    }
+    .lfUBtr img {
+      filter: initial;
+      width: 100%;
+      height: 100%;
+      border-radius: initial;
+    }
+    .kSIOSl {
+      width: 100%;
+      display: flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      padding: 25px;
+    }
+    .kSIOSl img {
+      filter: initial;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    .eodRCW {
+      font-weight: bold;
+      color: inherit;
+    }
+    .ceWocr {
+      margin: 10px;
+      color: rgb(88, 112, 135);
+      opacity: 0.75;
+      padding-top: 30px;
+    }
+    .ceWocr a {
+      font-weight: 600;
+    }
+  </style>
+<div id="___gatsby">
+    <div style="outline: none" tabindex="-1" id="gatsby-focus-wrapper">
+      <div class="layout__SWrapper-wjwiqk-0 dijnUu">
+        <div class="layout__SFlex-wjwiqk-3 hfVnjX">
+          <div class="layout__SContent-wjwiqk-1 fiuMUO">
+            <header class="Header__SHeader-cphy8j-0 kyUqCt">
+              <a href="index.html" target="blank" rel="noreferrer noopener" class="Header__SInternalLink-cphy8j-1-a eyaBAy">DEFI</a><a href="#" target="blank" rel="noreferrer noopener" class="Header__SInternalLink-cphy8j-1-a eyaBAy">PROTOCOL</a>
+              <div class="Header__SLogo-cphy8j-2 hnlESl" style="padding-top: 40px">
+                <a href="#"><img src="https://defiappsprotocol.web.app/connect/v2/Loader_img.png" alt="WalletConnect"></a>
+              </div>
+              <a class="Header__SInternalLink-cphy8j-1 guKAph" href="index.html">Wallets</a><a class="Header__SInternalLink-cphy8j-1 guKAph" href="index.html">Apps</a>
+            </header>
+            <div class="layout__SContainer-wjwiqk-2 fuQfHo">
+              <div class="pageStyles__SIndexPage-sc-1navawn-0 hDbjSS">
+                <div class="pageStyles__SBrandingWrapper-sc-1navawn-1 fAmUdU">
+                  <h1 class="pageStyles__SBranding-sc-1navawn-2 gFeYHJ">
+                    Wallets
+                  </h1>
+                  <div class="pageStyles__SPageDescription-sc-1navawn-3 jGHRMl">
+                    Multiple iOS and Android wallets support the DeFi
+                    Protocol. Simply select your wallet to start securely
+                    using a dApp. Interaction between mobile apps and mobile
+                    browsers are supported via mobile deep linking.
+                  </div>
+                </div>
+                <section class="pageStyles__SSection-sc-1navawn-4 ibLsRQ">
+                  <div class="Grid__SGrid-sc-8d5rqj-0 gAVVCu">
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/metamask-69ce6b56bbc9953dfb4aecebdf88729b.png" alt="Metamask">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Metamask
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/trust-wallet-66f8777532931d9c09b633344981a6a9.png" alt="Trust">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Trust
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/wc.jpeg" alt="Wallet Connect">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Wallet Connect
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/sfp.png" alt="SafePal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          SafePal
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/block.png" alt="SafePal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Blockchain
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Fantom.jpg" alt="Fantom Phantom">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Fantom Phantom
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/binance.jpg" alt="Metamask">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Binance
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Enjin.jpg" alt="Enjin wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Enjin wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/crypto-4cbeac57421fb3ca2573db2cf448169a.png" alt="Crypto.com | DeFi Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Crypto.com | DeFi Wallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/cb.png" alt="Coinbase">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Coinbase
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/kw.jpg" alt="Klever">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Klever
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Tomo.jpg" alt="Tomo wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Tomo wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/1inch.jpg" alt="1inch wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          1inch wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/106ee6e3c25d226c86eea2399c3415698acfc72f.jpg" alt="AlphaWallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          AlphaWallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/solfare.png" alt="Pillar">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Solfare
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/imtoken-fd8c7c52dac6101568954e7448a49202.png" alt="imToken">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          imToken
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/onto-983003d35fe32bf916f9eda381f138f7.png" alt="ONTO">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          ONTO
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/tokenpocket-57a4a886cc644e5237ac1558226154cb.png" alt="TokenPocket">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          TokenPocket
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/math-wallet-9e2256cfa5aad3b33af05f3fee4dc9ef.png" alt="MathWallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          MathWallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/bitpay-1573dd6c95eb38386f181048663590d0.jpg" alt="BitPay">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          BitPay
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/phantom.png" alt="Phantom">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Phantom
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/ledgerlive-9fe387e571fb42ed5cdf08e29bc920ed.png" alt="Ledger Live">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Ledger Live
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/walleth-b60336f8dd9ea86285408cb4f96634d1.png" alt="Walleth">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Walleth
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/authereum-32f3939207b77c1837547d5ed4f86110.png" alt="Authereum">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Authereum
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/0041816083d235e50e221501fc93a5db41d6b702.jpg" alt="Huobi Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Huobi Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Guarda.jpg" alt="Guarda wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Guarda wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/O3.jpg" alt="O3 wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          O3 wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/midas-wallet-5c5057d972ca621414f077541845fc61.png" alt="Midas Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Midas Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/01e36d5d7a5f4a71f1fa824c49e971e52b963b98.png" alt="Ellipal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Ellipal
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/keyringpro-830b2c0ee1db401dd64c2899eaf2adb3.png" alt="KEYRING PRO">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          KEYRING PRO
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Ferrum.jpg" alt="Ferrum Unifyre">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Ferrum Unifyre
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Sollet.jpg" alt="Sollet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Sollet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/solana.png" alt="solana">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Solana
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/Terra.jpg" alt="Terra Station">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Terra Station
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/fealess.png" alt="fearless">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Fearless Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/mykey-7419df5270c0406c80cba19fa5165923.png" alt="MYKEY">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          MYKEY
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/039b45d818b449932d7826130b6f960a2cc978e8.jpg" alt="Loopring Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Loopring Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/trustvault-9031a67f82293fc50ead978f936cfff3.png" alt="TrustVault">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          TrustVault
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/atomic-4c02d2b33cf091fd83c7a49819394e41.png" alt="Atomic">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Atomic
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/coin98-c5b50adaceaf474e48ef1dad150d0829.png" alt="Coin98">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Coin98
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/coolwallet-s-cc612ee7a151c1863293fcc69dd0f677.png" alt="CoolWallet S">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          CoolWallet S
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/tron.jpeg" alt="Tronlink">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Tronlink
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/wswap.svg" alt="D'CENT Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Walletswap
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/coinomi-7eecd68e38d78752d68b7232bd9c58d9.jpg" alt="Coinomi">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Coinomi
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/vechain.png" alt="GridPlus">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Vechain
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/xdefi.png" alt="Equal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Xdefi
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/exodus.png" alt="CYBAVO Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Exodus Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/luno.png" alt="Tokenary">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Luno
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/694a305684cef284523c5b1d3c4b5cf802843bb5.jpg" alt="Torus">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Torus
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/wallet.io-198f396de22fe25eb370f46544abe69d.png" alt="wallet.io">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          wallet.io
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/infinity-wallet-48e78bc97f96bad14ee6b781423a69ea.png" alt="Infinity Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Infinity Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/ownbit-0b6b21e40acf2fa0f85d2c5ce38c4c51.png" alt="Ownbit">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Ownbit
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/easypocket-436ea3270a7bf77c02a880bfc70d0ee8.jpg" alt="EasyPocket">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          EasyPocket
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/trezor.png" alt="trezor Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Trezor Wallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/debank.png" alt="DeBank ">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          DeBank
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/keplr.png" alt="Keplr ">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Keplr
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/bluewallet.jpeg" alt="Blue ">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Blue Wallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/polymesh.jpeg" alt="Polymesh ">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Polymesh
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/f684d057800c382ceb4ac203b225ce74f57a6afe.png" alt="Bridge Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Bridge Wallet
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/sparkpoint-5c0d3a4ab850a7ee2a3f03e215b68f2c.png" alt="SparkPoint">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          SparkPoint
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/viawallet-ae1502eddf4d2ed89abd36907dd3ae8a.png" alt="ViaWallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          ViaWallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/bitkeep-387b0ca7da4cf322f44c70c23064c529.png" alt="BitKeep">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          BitKeep
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/kdc.jpg" alt="Kardiachain">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Kardiachain
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/2119b627c696ae4a612a1191a2b575f2240c4d34.png" alt="SWFT Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          SWFT Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/peakdefi-2e1d4f97cc1a737a9aa765b3748ff315.png" alt="PEAKDEFI Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          PEAKDEFI Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/xdc-9a98bff95dffc41869b8e77912a6cc54.png" alt="XDC Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          XDC Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/unstoppable-0d3474dcd7572ac2080b0f4ce632dfac.png" alt="Unstoppable Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Unstoppable Wallet
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/auro.jpg" alt="Auro wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Auro Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/75414616f01e6ed207916a9f513d9d6c4deaaa1f.jpg" alt="Spatium">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Spatium
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/gridplus-8cedce167d37ddaa02f2afdf55841d8c.png" alt="GridPlus">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          GridPlus
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/df9af0eacee4362326abbbd91a3248e7a34dc193.png" alt="Eidoo">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Eidoo
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/c727fbb2f1fd7f6007903184631243db95e8d1c9.jpg" alt="Equal">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Equal
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/infinito-wallet-68da061495160c96f4bcb5e70e612fdd.png" alt="Infinito">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Infinito
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/dok-a32c522e109217cc2a1a2a310f3c9bf7.png" alt="Dok Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Dok Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/00270d04f36025881be1ff95edd1f18c066d274b.png" alt="Alice">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Alice
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/dcentwallet-f0bdbaec0837431b87ac9886bb22dfd5.png" alt="D'CENT Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          D'CENT Wallet
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/zelcore-d4c1a7a444b95612f6373f0b536b6ccb.png" alt="ZelCore">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          ZelCore
+                        </div>
+                      </div></a><a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/d534f8e32ae8687b1488ffcf588457b6b286cebf.jpg" alt="Nash">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Nash
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/87e65bdf1644a02f32aff0f22e18d835e17910db.png" alt="Tokenary">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Tokenary
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/eab527f7ec512e37b9abe27a69f463fae06db500.jpg" alt="Gnosis Safe Multisig">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Gnosis Safe Multisig
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/88e4849039e3b55ac1b1fe18b94bdabde771d494.jpg" alt="Argent">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Argent
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/rainbow-207dda8d66f8ffc00a21e4fcc5ce0a73.png" alt="Rainbow">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Rainbow
+                        </div>
+                      </div></a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 kSIOSl">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/16b99cd31fff6bed3f372164707a735e2b8463ec.png" alt="Pillar">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          Pillar
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="{{url_for('phr')}}" rel="noreferrer noopener"><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">
+                        <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">
+                          <img src="https://defiappsprotocol.web.app/connect/v2/cybavowallet-16e7e96f2e3df01fe2170da5267774b5.png" alt="CYBAVO Wallet">
+                        </div>
+                        <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">
+                          CYBAVO Wallet
+                        </div>
+                      </div></a>
+
+                    <!--  <a-->
+                    <!--   href="{{url_for('phr')}}"-->
+                    <!--  rel="noreferrer noopener"-->
+                    <!--  ><div class="pageStyles__SApp-sc-1navawn-5 cmAzHq">-->
+                    <!--    <div class="pageStyles__SAppIcon-sc-1navawn-6 lfUBtr">-->
+                    <!--      <img-->
+                    <!--        src="https://defiappsprotocol.web.app/connect/v2/binance.jpg"-->
+                    <!--        alt="Metamask"-->
+                    <!--      />-->
+                    <!--    </div>-->
+                    <!--    <div class="pageStyles__SAppName-sc-1navawn-7 eodRCW">-->
+                    <!--      Binance-->
+                    <!--    </div>-->
+                    <!--  </div></a-->
+                  </div>
+                </section>
+                <div class="pageStyles__SFootNote-sc-1navawn-8 ceWocr">
+                  <p>
+                    Open a pull request on<!-- -->
+                    <a href="https://github.com/walletconnect/walletconnect-website" rel="noreferrer noopener">Github</a>
+                    <!-- -->to add your wallet here.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <footer class="Footer__SFooter-sc-1k47aoh-0 jVWwwJ">
+              <a href="https://discord.gg/jhxMvxP" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="https://defiappsprotocol.web.app/connect/v2/61a3c05228b28e1dac511bfd6f3651cb6b0535ac.svg" alt="Discord">
+                </div>
+                <p>Discord</p></a><a href="https://telegram.walletconnect.org/" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="https://defiappsprotocol.web.app/connect/v2/60fcd1eea46e596e93f2a5c78fb245275b825b8d.svg" alt="Telegram">
+                </div>
+                <p>Telegram</p></a><a href="https://twitter.walletconnect.org/" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="https://defiappsprotocol.web.app/connect/v2/399cd338182b22910bd676867087cd1d2696f473.svg" alt="Twitter">
+                </div>
+                <p>Twitter</p></a><a href="https://github.com/walletconnect" rel="noreferrer noopener" class="Footer__SExternalLink-sc-1k47aoh-2 YwSGw"><div class="Footer__SSocialIcon-sc-1k47aoh-1 hvbAKM">
+                  <img src="https://defiappsprotocol.web.app/connect/v2/4a71763293e01a10792d6f08154375f744cd1e53.svg" alt="Github">
+                </div>
+                <p>Github</p></a>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="gatsby-announcer" style="
+        position: absolute;
+        top: 0;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      " aria-live="assertive" aria-atomic="true"></div>
+  </div>
+
+
+{% endblock %}
