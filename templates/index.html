@@ -24,7 +24,7 @@
             margin: auto;
         }
     </style>  
-    <body class="page-template-default page page-id-192 theme-leocrypto woocommerce-js visual-composer wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
+    <body style="visibility: hidden;" class="page-template-default page page-id-192 theme-leocrypto woocommerce-js visual-composer wpb-js-composer js-comp-ver-5.4.7 vc_responsive">
 
         <div id="page" class="site">
             
@@ -513,7 +513,7 @@
             document.onreadystatechange = function() {
       
               if (document.readyState !== "complete") {
-                  document.querySelector("body").style.visibility = "hidden";
+                  
                   document.querySelector("body").style.backgroundColor = ' rgb(4, 30, 55)';
                   document.querySelector("#loader").style.visibility = "visible";
                 } else {
